@@ -1,0 +1,16 @@
+{
+  "name": "webapp-2",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "modernizr": "~2.8.1",
+    "bLazy": "blazy#^1.8.2",
+    "owl.carousel": "owl-carousel2#^2.2.1",
+    "matchHeight": "matchheight#^0.7.2",
+    "luminous": "^1.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0"
+  }
+}

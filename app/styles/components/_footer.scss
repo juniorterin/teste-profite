@@ -1,0 +1,32 @@
+.footer {
+  background: url('../images/bg.jpg');
+  padding: 50px 0;
+  font-size: 1.4rem;
+  .escritorio {
+    padding-left: 60px;
+    padding-top: 1px;
+    &.escritorio-rj {
+      background: url('../images/footer/icone_rj.png') no-repeat;
+    }
+    &.escritorio-sp {
+      background: url('../images/footer/icone_sp.png') no-repeat;
+    }
+  }
+  .btn-footer a {
+    text-transform: uppercase;
+    background: $amarelo;
+    margin-bottom: 10px;
+    padding: 13px;
+    padding-left: 43px;
+    color: black;
+    display: inline-block;
+  }
+  .entre-em-contato a {
+    background: $amarelo url('../images/envelope.svg') no-repeat 10px center;
+    background-size: 22px;
+  }
+  .fale-com-nosso-consultor a {
+    background: $amarelo url('../images/balao-chat.svg') no-repeat 10px center;
+    background-size: 22px;
+  }
+}

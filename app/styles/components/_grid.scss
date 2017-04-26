@@ -1,0 +1,37 @@
+.container {
+  padding-right: 23px;
+  padding-left: 23px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+	margin-left: -23px;
+	margin-right: -23px;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+}
+
+// Helpers
+
+.clearfix:after, .row:after, .row:before, .container:after, .container:before {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+.coluna-1-de-3-desktop {
+	width: 33.3%;
+	float: left;
+	min-width: 275px;
+	@media (max-width: 890px) {
+		float: none;
+		margin: 0 auto 30px;
+	}
+}

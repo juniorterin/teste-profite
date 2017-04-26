@@ -1,0 +1,124 @@
+header {
+	padding: 35px 0;
+	.row {
+		margin-left: -17px;
+		margin-right: -17px;
+	}
+	.row > * {
+		float: left;
+		padding-left: 17px;
+		padding-right: 17px;
+
+	}
+	.logotipo {
+		margin-bottom: 35px;
+		img {
+			max-width: 235px;
+		}
+		@media (max-width: 1024px) {
+			max-width: initial;
+			width: 33.3%;
+			margin-left: 33.3%;
+			img {
+				max-width: inital;
+				width: 100%;
+			}
+		}
+	}
+	.acesso {
+		margin: 6px 0;
+		line-height: 1.6rem;
+		@media (max-width: 1024px) {
+			width: 33.3%;
+			padding-right: 40px;
+			.usuario-bem-vindo, .cadastre-se-login {
+				float: right;
+				clear: both;
+			}
+		}
+		.usuario-bem-vindo {
+			font-size: 20px;
+			font-size: 2.0rem;
+			font-family: 'Arial Bold';
+		}
+		.cadastre-se-login {
+			p {
+				margin: 0;
+				margin-top: 5px;
+				font-size: 14px;
+				font-size: 1.4rem;
+			}
+			a {
+				color: black;
+			}
+		}
+	}
+	.busca {
+		max-width: 345px;
+		width: 100%;
+		position: relative;
+		margin-top: 10px;
+		@media (max-width: 1024px) {
+			max-width: 100%;
+			input {
+				min-height: 35px;
+				box-shadow: -10vh 0vh 0px 0px $amarelo, 10vh 0vh 0px 0px $amarelo;
+			}
+		}
+		form {
+			position: relative;
+		}
+		input {
+			width: 100%;
+			border-radius: 10px;
+			background: $amarelo;
+			padding-left: 48px;
+			color: black;
+		}
+		.btn-buscar {
+			position: absolute;
+			top: 0;
+			left: 0;
+			background: black;
+			font-size: 0;
+			height: 31px;
+			width: 42px;
+			border-radius: 10px;
+			background: black url('../images/lupa.svg') no-repeat center center;
+			background-size: 60% !important;
+			@media (max-width: 1024px) {
+				border-radius: 0;
+				height: 35px;
+			}
+		}
+	}
+	.linguas-skype {
+		float: right;
+		@media (max-width: 1024px) {
+			display: none;
+		}
+		.linguas {
+			ul {
+				text-align: center;
+				li {
+					margin: 0 2px;
+				}
+			}
+			img {
+				max-width: 25px;
+				height: 25px;
+			}
+		}
+		.skype {
+			img {
+				position: relative;
+				top: 5px;
+			}
+			a {
+				font-size: 18px;
+				font-size: 1.8rem;
+				color: #00aff0
+			}			
+		} 
+	}
+}
